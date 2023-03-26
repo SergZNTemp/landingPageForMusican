@@ -1,0 +1,877 @@
+@charset "UTF-8";
+.base {
+  margin: 0%;
+  padding: 0%;
+  width: 2000px;
+  position: relative;
+  background-color: #ffffff;
+}
+.base .header {
+  width: 2000px;
+  height: 1062px;
+}
+.base .header img {
+  width: 2000px;
+  height: 1062px;
+}
+.base .header header {
+  height: 63px;
+  margin: auto;
+  padding-top: 27px;
+  padding-right: 398px;
+  padding-bottom: 23px;
+  padding-left: 400px;
+  background: rgba(229, 230, 230, 0.1);
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+.base .header header ul {
+  padding: 0%;
+  width: 1202px;
+  height: 13px;
+  list-style: none;
+  display: block;
+}
+.base .header header ul li {
+  display: flexbox;
+  float: left;
+  margin-left: 30px;
+}
+.base .header header ul li a {
+  font-size: 17px;
+  letter-spacing: 2px;
+  line-height: 59px;
+  color: #000000;
+  font-weight: 400;
+  font-family: "Dosis";
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.base main #discography {
+  width: 2000px;
+  height: 1843px;
+  background-image: url(images/musicalPictures/imageForDiscographyI.png);
+  background-size: 2000px 787px;
+  background-position: bottom;
+  background-repeat: no-repeat;
+}
+.base main #discography .chapter {
+  font-size: 50px;
+  letter-spacing: 6px;
+  line-height: 59px;
+  color: #000000;
+  font-weight: 400;
+  font-family: "Dosis";
+  text-align: center;
+  text-transform: uppercase;
+  width: 338px;
+  height: 37px;
+  margin-top: 65px;
+  margin-left: 829px;
+}
+.base main #discography #description {
+  margin: 50px auto;
+  height: 62px;
+  font-size: 14px;
+  letter-spacing: 2px;
+  line-height: 24px;
+  color: #798285;
+  font-weight: 400;
+  font-family: "Open Sans";
+  text-align: center;
+}
+.base main #discography .descriptionList {
+  margin-top: 157px;
+  margin-right: 377px;
+  margin-left: 400px;
+  padding: 0%;
+  display: grid;
+  grid-template-columns: 503px 693px;
+  -moz-column-gap: 27px;
+       column-gap: 27px;
+}
+.base main #discography .descriptionList .grid-item {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Open Sans";
+}
+.base main #discography .descriptionList .year {
+  display: flex;
+  align-items: last baseline;
+  text-align: right;
+}
+.base main #discography .descriptionList .year p {
+  margin: 0px;
+  padding: 0px;
+  font-size: 14px;
+  line-height: 24px;
+  color: #000000;
+  font-weight: 700;
+}
+.base main #discography .descriptionList .title {
+  text-align: left;
+  vertical-align: bottom;
+}
+.base main #discography .descriptionList .title p {
+  margin: 0px;
+  padding: 0px;
+  font-size: 23px;
+  letter-spacing: 0px;
+  line-height: 24px;
+  color: #000000;
+  font-weight: 400;
+}
+.base main #discography .descriptionList .tagForYear {
+  border-top: solid 1px #000000;
+  text-align: left;
+  vertical-align: top;
+}
+.base main #discography .descriptionList .tagForYear p {
+  margin: 0px;
+  padding: 0px;
+  font-size: 14px;
+  line-height: 24px;
+  color: #000000;
+  font-weight: 700;
+}
+.base main #discography .descriptionList .description {
+  text-align: left;
+  vertical-align: top;
+}
+.base main #discography .descriptionList .description p {
+  margin: 0px;
+  padding: 0px;
+  font-size: 14px;
+  letter-spacing: 0px;
+  line-height: 24px;
+  color: #acacac;
+  font-weight: 400;
+  text-align: justify;
+}
+.base main #discography .descriptionList .description img {
+  margin-top: 20px;
+  margin-bottom: 113px;
+  width: 196px;
+  height: 56px;
+}
+.base main #concert tours {
+  width: 2000px;
+  height: 1416px;
+  background-image: url(images/musicalPictures/backImgForConcert.png);
+  background-size: 2000px 980px;
+  background-position: bottom;
+  background-repeat: no-repeat;
+}
+.base main #concert tours .chapter {
+  font-size: 50px;
+  letter-spacing: 6px;
+  line-height: 59px;
+  color: #000000;
+  font-weight: 400;
+  font-family: "Dosis";
+  text-align: center;
+  text-transform: uppercase;
+  width: 338px;
+  height: 37px;
+  margin-top: 65px;
+  margin-left: 829px;
+}
+.base main #concert tours #description {
+  margin: 50px auto;
+  height: 62px;
+  font-size: 14px;
+  letter-spacing: 2px;
+  line-height: 24px;
+  color: #798285;
+  font-weight: 400;
+  font-family: "Open Sans";
+  text-align: center;
+}
+.base main #concert tours .descriptionListConcert {
+  margin-top: 550px;
+  margin-right: 377px;
+  margin-left: 400px;
+  padding: 0%;
+  display: grid;
+  grid-template-columns: 665px;
+  -moz-column-gap: 27px;
+       column-gap: 27px;
+}
+.base main #concert tours .descriptionListConcert .grid-item {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Open Sans";
+}
+.base main #concert tours .descriptionListConcert .year {
+  display: flex;
+  align-items: last baseline;
+  text-align: left;
+  width: 393px;
+  border-bottom: 1px solid #000000;
+  padding-bottom: 12px;
+}
+.base main #concert tours .descriptionListConcert .year p {
+  margin: 0px;
+  padding: 0px;
+  font-size: 14px;
+  line-height: 24px;
+  color: #000000;
+  font-weight: 700;
+}
+.base main #concert tours .descriptionListConcert .title {
+  text-align: left;
+  vertical-align: bottom;
+  margin-top: 10px;
+}
+.base main #concert tours .descriptionListConcert .title p {
+  margin: 0px;
+  padding: 0px;
+  font-size: 14px;
+  line-height: 24px;
+  text-transform: uppercase;
+  color: #000000;
+  font-weight: 700;
+}
+.base main #concert tours .descriptionListConcert .tagForYear {
+  text-align: left;
+  vertical-align: top;
+  margin-top: 84px;
+}
+.base main #concert tours .descriptionListConcert .tagForYear p {
+  margin: 0px;
+  padding: 0px;
+  font-size: 23px;
+  letter-spacing: 0px;
+  line-height: 24px;
+  color: #000000;
+  font-weight: 400;
+}
+.base main #concert tours .descriptionListConcert .description {
+  text-align: left;
+  vertical-align: top;
+  margin-top: 23px;
+}
+.base main #concert tours .descriptionListConcert .description p {
+  margin: 0px;
+  padding: 0px;
+  font-size: 14px;
+  letter-spacing: 0px;
+  line-height: 24px;
+  color: #798285;
+  font-weight: 400;
+  text-align: justify;
+}
+.base main #concert tours .descriptionListConcert button {
+  margin-top: 60px;
+  width: 196px;
+  height: 56px;
+  border: 1px solid #636363;
+  font-size: 14px;
+  line-height: 24px;
+  color: #000000;
+  font-weight: 700;
+  font-family: "Open Sans";
+}
+.base main #concert tours .descriptionListConcert button a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: inherit;
+  height: inherit;
+  text-decoration: none;
+}
+.base main #concert tours .descriptionListConcert button a img {
+  width: 7px;
+  height: 11px;
+  margin-top: auto;
+  margin-left: 17px;
+  margin-bottom: auto;
+}
+.base main #later composition {
+  width: 2000px;
+  height: 1988px;
+}
+.base main #later composition .chapter {
+  font-size: 50px;
+  letter-spacing: 6px;
+  line-height: 59px;
+  color: #000000;
+  font-weight: 400;
+  font-family: "Dosis";
+  text-align: center;
+  text-transform: uppercase;
+  width: 338px;
+  height: 37px;
+  margin-top: 164px;
+  margin-left: 726px;
+}
+.base main #later composition .description {
+  margin: 50px auto;
+  height: 62px;
+  font-size: 14px;
+  letter-spacing: 2px;
+  line-height: 24px;
+  color: #798285;
+  font-weight: 400;
+  font-family: "Open Sans";
+  text-align: center;
+}
+.base main #later composition .descriptionListComposition {
+  margin-top: 162px;
+  margin-right: 399px;
+  margin-left: 399px;
+  padding: 0%;
+  display: grid;
+  grid-template-areas: "item1 item2" "item3 item4" "item5 item6";
+  grid-template-rows: 422px 422px 422px;
+  grid-template-columns: 600px 600px;
+  row-gap: 56px;
+}
+.base main #later composition .descriptionListComposition .grid-item {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Open Sans";
+}
+.base main #later composition .descriptionListComposition .grid-item #year {
+  opacity: 0.651;
+  width: 393px;
+  height: 20px;
+  font-size: 14px;
+  line-height: 24px;
+  text-transform: uppercase;
+  color: #000000;
+  font-weight: 700;
+  margin-left: 35px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid #000000;
+}
+.base main #later composition .descriptionListComposition .grid-item #place {
+  width: 158px;
+  height: 20px;
+  font-size: 14px;
+  line-height: 24px;
+  text-transform: uppercase;
+  color: #000000;
+  font-weight: 700;
+  margin-top: -10px;
+  margin-left: 35px;
+}
+.base main #later composition .descriptionListComposition .grid-item #smallTitle {
+  width: 482px;
+  height: 60px;
+  font-size: 23px;
+  letter-spacing: 0px;
+  line-height: 24px;
+  color: #000000;
+  font-weight: 400;
+  margin-left: 35px;
+}
+.base main #later composition .descriptionListComposition .grid-item #description {
+  width: 500px;
+  height: 72px;
+  font-size: 14px;
+  letter-spacing: 0px;
+  line-height: 24px;
+  color: #798285;
+  font-weight: 400;
+  margin-top: -10px;
+  margin-left: 35px;
+  text-align: justify;
+  overflow: hidden;
+}
+.base main #later composition .descriptionListComposition .grid-item #description:hover {
+  overflow: visible;
+  font-size: 14px;
+  color: black;
+  font-weight: 500;
+  float: left;
+}
+.base main #later composition .descriptionListComposition .grid-item #description:hover + #links {
+  opacity: 0;
+}
+.base main #later composition .descriptionListComposition .grid-item #links {
+  margin-top: 56px;
+  margin-left: 35px;
+  display: flex;
+  direction: row;
+}
+.base main #later composition .descriptionListComposition .grid-item #links button {
+  background-color: #f5f6f6;
+  width: 196px;
+  height: 56px;
+  border: 1px solid #636363;
+}
+.base main #later composition .descriptionListComposition .grid-item #links button a {
+  text-decoration: none;
+  font-size: 14px;
+  line-height: 24px;
+  color: #000000;
+  font-weight: 700;
+  font-family: "Open Sans";
+  text-align: left;
+}
+.base main #later composition .descriptionListComposition .grid-item #links button a img {
+  width: 7px;
+  height: 12px;
+  margin-left: 12px;
+}
+.base main #later composition .descriptionListComposition .grid-item #links button a:hover {
+  font-size: 16px;
+  font-weight: bold;
+  -webkit-text-decoration: dotted 5px black;
+          text-decoration: dotted 5px black;
+  color: black;
+}
+.base main #later composition .descriptionListComposition .item1 {
+  background-color: #f5f6f6;
+}
+.base main #later composition .descriptionListComposition .item2 {
+  background-image: url(images/musicalPictures/maxresdefault1.png);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.base main #later composition .descriptionListComposition .item3 {
+  background-image: url(images/musicalPictures/maxresdefault2.png);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.base main #later composition .descriptionListComposition .item4 {
+  background-color: #f5f6f6;
+}
+.base main #later composition .descriptionListComposition .item5 {
+  background-color: #f5f6f6;
+}
+.base main #later composition .descriptionListComposition .item6 {
+  background-image: url(images/musicalPictures/layer8.png);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.base main #upcoming events {
+  width: 2000px;
+  height: 642px;
+  background-color: rgb(50, 50, 50);
+}
+.base main #upcoming events .bttn {
+  width: 84px;
+  height: 172px;
+  background-size: inherit;
+  margin-top: 235px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.base main #upcoming events .bttn img {
+  width: 12px;
+  height: 24px;
+  margin: auto 32px auto 40px;
+}
+.base main #upcoming events .leftButton {
+  background-image: url(images/musicalPictures/layerLeft.png);
+  float: left;
+}
+.base main #upcoming events .rightButton {
+  background-image: url(images/musicalPictures/layerRight.png);
+  float: right;
+}
+.base main #upcoming events #firstSection {
+  padding-top: 160px;
+}
+.base main #upcoming events #firstSection header {
+  margin-right: auto;
+  margin-left: auto;
+  width: 129px;
+  height: auto;
+  font-weight: 400;
+  text-align: center;
+}
+.base main #upcoming events #firstSection h6 {
+  margin-top: 48px;
+  margin-right: auto;
+  margin-left: auto;
+  width: 880px;
+  height: 40px;
+  font-size: 18px;
+  letter-spacing: 2px;
+  line-height: 26px;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-family: "Dosis";
+  text-align: center;
+}
+.base main #upcoming events #firstSection p {
+  margin-top: 44px;
+  margin-right: auto;
+  margin-left: auto;
+  width: 512px;
+  height: 64px;
+  font-size: 14px;
+  letter-spacing: 0px;
+  line-height: 24px;
+  color: rgb(200, 200, 200);
+  font-family: "Open Sans";
+  font-weight: 400;
+  text-align: center;
+}
+.base main #upcoming events #firstSection #footer {
+  margin-top: 68px;
+  width: 152px;
+  height: 24px;
+  letter-spacing: 0px;
+  overflow: hidden;
+}
+.base main #upcoming events #firstSection #footer:hover {
+  width: 800px;
+  height: 200px;
+  color: white;
+  overflow: visible;
+}
+.base main #upcoming events .pagination {
+  margin-top: 80px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  direction: row;
+  justify-content: center;
+  width: 108px;
+  height: auto;
+}
+.base main #upcoming events .pagination img {
+  width: 12px;
+  height: 12px;
+}
+.base main #upcoming events .pagination #one {
+  margin-right: 37px;
+}
+.base main #upcoming events .pagination #three {
+  margin-left: 37px;
+}
+.base main #new tracks {
+  width: 2000px;
+  height: 2362px;
+  background-image: url(images/musicalPictures/backImgForNew_tracks.png);
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+.base main #new tracks .tracksHistory {
+  margin-top: 164px;
+  margin-left: 399px;
+  display: grid;
+  grid-template-rows: 423px 423px;
+  grid-template-columns: 385px 385px 385px;
+  grid-template-areas: "iten1 iten2 iten3" "iten4 iten5 iten6";
+  row-gap: 26px;
+  -moz-column-gap: 24px;
+       column-gap: 24px;
+}
+.base main #new tracks .tracksHistory .grid-item {
+  padding-left: 36px;
+}
+.base main #new tracks .tracksHistory .grid-item .year {
+  opacity: 0.651;
+  width: 313px;
+  height: 20px;
+  font-size: 14px;
+  line-height: 24px;
+  text-transform: uppercase;
+  color: #000000;
+  font-weight: 700;
+  font-family: "Open Sans";
+  text-align: left;
+  margin-top: 36px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid #000000;
+}
+.base main #new tracks .tracksHistory .grid-item .theme {
+  margin-top: 10px;
+  width: 158px;
+  height: 20px;
+  font-size: 14px;
+  line-height: 24px;
+  text-transform: uppercase;
+  color: #ffffff;
+  font-weight: 700;
+  font-family: "Open Sans";
+  text-align: left;
+}
+.base main #new tracks .tracksHistory .grid-item h6 {
+  margin-top: 48px;
+  width: 292px;
+  height: 63px;
+  font-size: 23px;
+  letter-spacing: 0px;
+  line-height: 24px;
+  color: #000000;
+  font-weight: 400;
+  font-family: "Open Sans";
+  text-align: left;
+}
+.base main #new tracks .tracksHistory .grid-item .description {
+  margin-top: 36px;
+  width: 312px;
+  height: 120px;
+  font-size: 14px;
+  letter-spacing: 0px;
+  line-height: 24px;
+  color: #798285;
+  font-weight: 400;
+  font-family: "Open Sans";
+  overflow: hidden;
+  border: dotted 2 px greenyellow;
+}
+.base main #new tracks .tracksHistory .grid-item:hover h6 {
+  opacity: 0%;
+}
+.base main #new tracks .tracksHistory .grid-item:hover .description {
+  margin-top: -190px;
+  line-height: 22px;
+  overflow: visible;
+}
+.base main #new tracks .tracksHistory .item1 {
+  background-image: url(images/musicalPictures/backItem1.png);
+  background-position: -223px -338px;
+}
+.base main #new tracks .tracksHistory .item2 {
+  background-image: url(images/musicalPictures/backItem2.png);
+  background-position: -631px -338px;
+}
+.base main #new tracks .tracksHistory .item3 {
+  background-image: url(images/musicalPictures/backItem3.png);
+}
+.base main #new tracks .tracksHistory .item4 {
+  background-image: url(images/musicalPictures/backItem4.png);
+  background-position: -399px -144px;
+}
+.base main #new tracks .tracksHistory .item5 {
+  background-image: url(images/musicalPictures/backItem5.png);
+  background-position: -146px -1px;
+}
+.base main #new tracks .tracksHistory .item6 {
+  background-image: url(images/musicalPictures/backItem6.png);
+  background-position: -19px -207px;
+}
+.base main #new tracks .upcoming_events {
+  margin-top: 336px;
+  margin-left: 1000px;
+  width: 544px;
+  height: auto;
+  display: flexbox;
+  direction: column;
+}
+.base main #new tracks .upcoming_events .chapter {
+  font-size: 50px;
+  letter-spacing: 6px;
+  line-height: 59px;
+  text-transform: uppercase;
+  color: #42717e;
+  font-weight: 400;
+  font-family: "Dosis";
+  padding-bottom: 96px;
+}
+.base main #new tracks .upcoming_events h6 {
+  width: 240px;
+  height: 28px;
+  margin-top: 24px;
+  padding-bottom: 16px;
+  font-size: 23px;
+  letter-spacing: 0px;
+  line-height: 24px;
+  color: #000000;
+  font-weight: 400;
+  font-family: "Open Sans";
+  text-align: left;
+  border-bottom: solid 1px black;
+}
+.base main #new tracks .upcoming_events p {
+  width: 672px;
+  height: auto;
+  font-size: 14px;
+  letter-spacing: 0px;
+  line-height: 24px;
+  color: #798285;
+  font-weight: 400;
+  font-family: "Open Sans";
+  text-align: justify;
+}
+.base main #new tracks .upcoming_events #lineAfter {
+  width: 1px;
+  height: 52px;
+  margin-top: 22px;
+  margin-left: 35px;
+  border-left: 1px solid #000000;
+}
+.base main #new tracks .upcoming_events #lineMiddle {
+  width: 1px;
+  height: 168px;
+  margin-top: 22px;
+  margin-left: 35px;
+  border-left: 1px solid #000000;
+}
+.base main #history {
+  width: 2000px;
+  height: 1150px;
+  background-image: url(images/musicalPictures/backImgForHistory.png);
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+.base main #history .chapterH {
+  font-size: 50px;
+  letter-spacing: 6px;
+  line-height: 60px;
+  text-transform: uppercase;
+  color: #5b5c5a;
+  font-weight: 400;
+  font-family: "Dosis";
+  text-align: center;
+  margin-top: 164px;
+}
+.base main #history .descriptionH {
+  margin-top: 56px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 900px;
+  height: 103px;
+  font-size: 14px;
+  letter-spacing: 2px;
+  line-height: 24px;
+  color: #798285;
+  font-weight: 400;
+  font-family: "Open Sans";
+  text-align: center;
+}
+.base main #history .calender {
+  margin-top: 202px;
+  display: block;
+  height: auto;
+}
+.base main #history .calender .line {
+  background-image: url(images/musicalPictures/line.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 148px;
+  height: 1px;
+  opacity: 0.278;
+  margin-left: 35px;
+  margin-top: 30px;
+  float: left;
+}
+.base main #history .calender .point {
+  width: 8px;
+  height: 8px;
+  border-radius: 4px;
+  background-color: #595c59;
+  margin-left: 35px;
+  margin-top: 30px;
+  float: left;
+}
+.base main #history .calender .mounth {
+  opacity: 0.278;
+  font-size: 35px;
+  letter-spacing: 4px;
+  line-height: 60px;
+  text-transform: uppercase;
+  color: #000000;
+  font-weight: 400;
+  font-family: "Dosis";
+  text-align: center;
+  margin-left: 35px;
+  float: left;
+}
+.base main #history #afterCalender {
+  clear: both;
+  margin-top: 100px;
+  margin-left: auto;
+  margin-bottom: 614px;
+  margin-right: auto;
+  width: 231px;
+  height: 58px;
+  font-size: 14px;
+  line-height: 19px;
+  color: #5a5a58;
+  font-weight: 400;
+  font-family: "Open Sans";
+  text-align: center;
+}
+.base footer {
+  width: 2000px;
+  height: 981px;
+  background-image: url(images/musicalPictures/backImgForContact.png);
+  background-position: bottom;
+  background-repeat: no-repeat;
+}
+.base footer #contact {
+  margin-top: 270px;
+  margin-left: 1000px;
+  width: 600px;
+}
+.base footer #contact .chapterC {
+  height: auto;
+  font-size: 50px;
+  letter-spacing: 6px;
+  line-height: 59px;
+  text-transform: uppercase;
+  color: #454545;
+  font-weight: 400;
+  font-family: "Dosis";
+}
+.base footer #contact .descriptionC {
+  width: 672px;
+  height: 59px;
+  margin-top: 36px;
+  font-size: 14px;
+  letter-spacing: 0px;
+  line-height: 24px;
+  color: #798285;
+  font-weight: 400;
+  font-family: "Open Sans";
+}
+.base footer #contact .forms {
+  display: flex;
+  direction: row;
+  margin-top: 88px;
+}
+.base footer #contact .forms form input {
+  border: none;
+}
+.base footer #contact .forms form input[type=text] {
+  width: 383px;
+  height: 60px;
+  font-size: 14px;
+  letter-spacing: 0px;
+  text-transform: uppercase;
+  color: #798285;
+  font-weight: 400;
+  font-family: "Open Sans";
+  border-bottom: solid 1px black;
+}
+.base footer #contact .forms form input[type=submit] {
+  width: 96px;
+  height: 24px;
+  margin-top: 40px;
+  font-size: 20px;
+  line-height: 24px;
+  text-transform: uppercase;
+  color: #000000;
+  font-weight: 700;
+  font-family: "Open Sans";
+  text-align: left;
+  background-color: #ffffff;
+  border: none;
+}
+.base footer #contact .forms .socialLink {
+  display: flex;
+  flex-direction: column;
+  border-left: solid 1px black;
+  height: 190px;
+  width: auto;
+  margin-left: 120px;
+  margin-top: 40px;
+  margin-bottom: auto;
+  padding-left: 20px;
+  justify-content: space-between;
+}
+.base footer #contact .forms .socialLink .icon img {
+  width: 19px;
+  height: 19px;
+}/*# sourceMappingURL=style.css.map */

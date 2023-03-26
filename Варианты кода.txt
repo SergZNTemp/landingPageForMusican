@@ -1,0 +1,218 @@
+ <main>
+            <!-- <div class="about">
+                <h1 id="about">about</h1>
+            </div> -->
+            <div class="discography">
+                <h1 id="discography">discography</h1>
+                <p>September 4 world heard Night Visions, the first full album. He reached the 2 position in the chart
+                    Billboard 200. The single «It's Time» took 22 th place in the Billboard Hot 100, 4th in the
+                    Billboard Alternative and Billboard Rock, and now went platinum.</p>
+                <table>
+                    <tr class="firstRow">
+                        <td class="a1">
+                            <p>2010</p>
+                            <!-- <img src="" alt=""> -->
+                        </td>
+                        <td class="a1">
+                            <h6>Hell and Silence is an EP by Las Vegas rock group</h>
+                        </td>
+                    </tr>
+                    <tr class="secondRow">
+                        <td class="a2">
+                            <p>Hell and Silenc</p>
+                        </td>
+                        <td class="a2">
+                            <p>Hell and Silence is an EP by Las Vegas rock group, released in March 2010 in the United
+                                States. It was recorded at Battle Born Studios. All songs were written by Imagine
+                                Dragons and self-produced. The EP was in part mixed by Grammy nominated engineer Mark
+                                Needham.
+                                To promote the album the band performed five shows at SXSW 2010 including at the BMI
+                                Official Showcase.While at SXSW they were endorsed by Blue Microphones. They also toured
+                                the western United States with Nico Vega and Saint Motel. They also performed at Bite of
+                                Las Vegas Festival 2010, New Noise Music Festival, Neon Reverb Festival, and Fork Fest.
+                            </p>
+                            <img src="images/musicalPictures/Ñëîé 17.png" alt="play">
+                        </td>
+                    </tr>
+                    <tr class="firstRow">
+                        <td class="a1">
+                            <p>2012</p>
+                            <!-- <img src="" alt=""> -->
+                        </td>
+                        <td class="a1">
+                            <h6>Night Visions is the debut studio album by American rock band</h>
+                        </td>
+                    </tr>
+                    <tr class="secondRow">
+                        <td class="a2">
+                            <p>night visions</p>
+                        </td>
+                        <td class="a2">
+                            <p>It was released on September 4, 2012 through Interscope Records. The extended track
+                                was
+                                released on February 12, 2013, adding three more songs. Recorded between 2010 and
+                                2012,
+                                the album was primarily produced by the band themselves, as well as English hip-hop
+                                producer Alex da Kid and Brandon Darner from the American indie rock group The Envy
+                                Corps. It was mastered by Joe LaPorta. According to frontman Dan Reynolds, the album
+                                took three years to finish ...</p>
+                            <img src="images/musicalPictures/Ñëîé 16.png" alt="play">
+                        </td>
+                    </tr>
+                    <tr class="firstRow">
+                        <td class="a1">
+                            <p>2015</p>
+                            <!-- <img src="" alt=""> -->
+                        </td>
+                        <td class="a1">
+                            <h6>The album was recorded during 2014
+                                at the band's home studio in Las Vegas, Nevada</h>
+                        </td>
+                    </tr>
+                    <tr class="secondRow">
+                        <td class="a2">
+                            <p>Smoke + Mirrors</p>
+                        </td>
+                        <td class="a2">
+                            <p>Self-produced by members of the band along with English hip-hop producer Alexander
+                                Grant,
+                                known by his moniker Alex da Kid, the album was released by Interscope Records and
+                                Grant's KIDinaKORNER label on February 17, 2015, in the United States.</p>
+                            <!-- <img src="" alt=""> -->
+                        </td>
+                        </td>
+                    </tr>
+                </table>
+                <img src="images/musicalPictures/imageForDiscographyI.png" alt="imageForDiscographyI.png">
+            </div>
+            <div class="concert_tours">
+                <h1 id="concert_tours">concert tours</h1>
+            </div>
+            <div class="later_composition">
+                <h1 id="later_composition">later composition</h1>
+            </div>
+            <div class="new_tracks">
+                <h1 id="new_tracks">new tracks</h1>
+            </div>
+            <div class="upcoming_events">
+                <h1 id="upcoming_events">upcoming events</h1>
+            </div>
+            <div class="history">
+                <h1 id="history">history</h1>
+            </div>
+        </main>
+        <footer>
+            <div class="contact">
+                <h1 id="contact">contact</h1>
+            </div>
+        </footer>
+    </div>
+</body>
+
+
+table {
+            //     border: 5px dotted gold;
+            //     tab-size: 1223px 1040px;
+            //     margin-top: 157px;
+            //     margin-left: 400px;
+
+            //     .firstRow {
+            //         border: 5px dotted #00ff4c;
+            //         margin: 0%;
+            //         padding: 0%;
+            //         text-align: left;
+            //         vertical-align: bottom;
+
+            //         .a1 {
+            //             width: 503px;
+            //             margin: 0%;
+            //             padding: 0%;
+            //             border-bottom: 1px solid #000000;
+
+            //             p {
+            //                 margin: 0%;
+            //                 padding: 0%;
+            //                 width: 158px;
+            //                 height: 20px;
+            //                 font-size: 14px;
+            //                 line-height: 24px;
+            //                 color: #000000;
+            //                 font-weight: 700;
+            //                 font-family: "Open Sans";
+            //                 text-align: left;
+            //             }
+
+            //             img {}
+            //         }
+
+            //         .a1 {
+            //             // width: 693px;
+            //             margin: 0%;
+            //             padding: 0%;
+
+            //             h6 {
+            //                 margin: 0%;
+            //                 padding: 0%;
+            //                 font-size: 23px;
+            //                 letter-spacing: 0px;
+            //                 line-height: 24px;
+            //                 color: #000000;
+            //                 font-weight: 400;
+            //                 font-family: "Open Sans";
+            //                 text-align: left;
+            //             }
+
+            //         }
+            //     }
+
+            //     .secondRow {
+            //         margin: 0%;
+            //             padding: 0%;
+            //         text-align: left;
+            //         vertical-align: top;
+
+
+            //         .a2 {
+            //             border: 5px dotted #00b7ff;
+            //             margin: 0%;
+            //             padding: 0%;
+
+            //             p {
+            //                 margin: 0%;
+            //                 padding: 0%;
+            //                 width: 273px;
+            //                 height: 20px;
+            //                 font-size: 14px;
+            //                 line-height: 24px;
+            //                 color: #000000;
+            //                 font-weight: 700;
+            //                 font-family: "Open Sans";
+            //                 text-align: left;
+            //                 text-transform: uppercase;
+            //             }
+            //         }
+
+            //         .a2 {
+            //             margin: 0%;
+            //             padding: 0%;
+
+            //             p {
+            //                 margin: 0%;
+            //                 padding: 0%;
+            //                 width: 672px;
+            //                 height: 165px;
+            //                 font-size: 14px;
+            //                 letter-spacing: 0px;
+            //                 line-height: 24px;
+            //                 color: #acacac;
+            //                 font-weight: 400;
+            //                 font-family: "Open Sans";
+            //             }
+
+            //             img {
+            //                 width: 196px;
+            //                 height: 56px;
+            //             }
+            //         }
+            //     }
+            // }
